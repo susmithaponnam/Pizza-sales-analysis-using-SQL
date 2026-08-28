@@ -1,18 +1,284 @@
-# SQL-Pizza-Sales-Analysis
-𝐏𝐢𝐳𝐳𝐚 𝐒𝐚𝐥𝐞𝐬 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬! 🚀
+# 🍕 SQL Pizza Sales Analysis
 
-📊 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬:
-- 𝘛𝘰𝘵𝘢𝘭 𝘖𝘳𝘥𝘦𝘳𝘴: 𝘈𝘯𝘢𝘭𝘺𝘻𝘦𝘥 𝘢 𝘸𝘩𝘰𝘱𝘱𝘪𝘯𝘨 21,350 𝘰𝘳𝘥𝘦𝘳𝘴 𝘵𝘰 𝘶𝘯𝘥𝘦𝘳𝘴𝘵𝘢𝘯𝘥 𝘤𝘶𝘴𝘵𝘰𝘮𝘦𝘳 𝘣𝘦𝘩𝘢𝘷𝘪𝘰𝘳 𝘢𝘯𝘥 𝘱𝘳𝘦𝘧𝘦𝘳𝘦𝘯𝘤𝘦𝘴.
-- 𝘛𝘰𝘵𝘢𝘭 𝘙𝘦𝘷𝘦𝘯𝘶𝘦: 𝘎𝘦𝘯𝘦𝘳𝘢𝘵𝘦𝘥 𝘢𝘯 𝘪𝘮𝘱𝘳𝘦𝘴𝘴𝘪𝘷𝘦 $817,860 𝘪𝘯 𝘳𝘦𝘷𝘦𝘯𝘶𝘦, 𝘴𝘩𝘰𝘸𝘤𝘢𝘴𝘪𝘯𝘨 𝘵𝘩𝘦 𝘣𝘶𝘴𝘪𝘯𝘦𝘴𝘴'𝘴 𝘴𝘶𝘤𝘤𝘦𝘴𝘴.
-- 𝘔𝘰𝘴𝘵 𝘊𝘰𝘮𝘮𝘰𝘯 𝘗𝘪𝘻𝘻𝘢: 𝘚𝘪𝘻𝘦 𝘓 𝘱𝘪𝘻𝘻𝘢𝘴 𝘥𝘰𝘮𝘪𝘯𝘢𝘵𝘦𝘥 𝘵𝘩𝘦 𝘰𝘳𝘥𝘦𝘳𝘴, 𝘸𝘪𝘵𝘩 𝘢 𝘴𝘵𝘢𝘨𝘨𝘦𝘳𝘪𝘯𝘨 18,526 𝘴𝘰𝘭𝘥.
-- 𝘏𝘪𝘨𝘩𝘦𝘴𝘵 𝘗𝘳𝘪𝘤𝘦𝘥 𝘗𝘪𝘻𝘻𝘢: 𝘛𝘩𝘦 𝘎𝘳𝘦𝘦𝘬 𝘗𝘪𝘻𝘻𝘢 𝘴𝘵𝘰𝘭𝘦 𝘵𝘩𝘦 𝘴𝘩𝘰𝘸 𝘸𝘪𝘵𝘩 𝘢 𝘱𝘳𝘪𝘤𝘦 𝘵𝘢𝘨 𝘰𝘧 $35.95, 𝘩𝘪𝘨𝘩𝘭𝘪𝘨𝘩𝘵𝘪𝘯𝘨 𝘢 𝘱𝘳𝘦𝘮𝘪𝘶𝘮 𝘰𝘧𝘧𝘦𝘳𝘪𝘯𝘨.
+A SQL-based data analysis project using MySQL to analyze pizza sales, ordering patterns, product performance, and revenue.
 
-💻 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡:
-- 𝘓𝘦𝘷𝘦𝘳𝘢𝘨𝘦𝘥 𝘢𝘥𝘷𝘢𝘯𝘤𝘦𝘥 𝘚𝘘𝘓 𝘵𝘦𝘤𝘩𝘯𝘪𝘲𝘶𝘦𝘴 𝘪𝘯𝘤𝘭𝘶𝘥𝘪𝘯𝘨 𝘫𝘰𝘪𝘯𝘴, 𝘸𝘪𝘯𝘥𝘰𝘸 𝘧𝘶𝘯𝘤𝘵𝘪𝘰𝘯𝘴, 𝘢𝘯𝘥 𝘢𝘨𝘨𝘳𝘦𝘨𝘢𝘵𝘦 𝘧𝘶𝘯𝘤𝘵𝘪𝘰𝘯𝘴 𝘵𝘰 𝘱𝘦𝘳𝘧𝘰𝘳𝘮 𝘤𝘰𝘮𝘱𝘳𝘦𝘩𝘦𝘯𝘴𝘪𝘷𝘦 𝘢𝘯𝘢𝘭𝘺𝘴𝘪𝘴.
-- 𝘑𝘰𝘪𝘯𝘴: 𝘊𝘰𝘮𝘣𝘪𝘯𝘦𝘥 𝘮𝘶𝘭𝘵𝘪𝘱𝘭𝘦 𝘵𝘢𝘣𝘭𝘦𝘴 𝘴𝘦𝘢𝘮𝘭𝘦𝘴𝘴𝘭𝘺 𝘵𝘰 𝘦𝘹𝘵𝘳𝘢𝘤𝘵 𝘮𝘦𝘢𝘯𝘪𝘯𝘨𝘧𝘶𝘭 𝘪𝘯𝘴𝘪𝘨𝘩𝘵𝘴 𝘧𝘳𝘰𝘮 𝘪𝘯𝘵𝘦𝘳𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘦𝘥 𝘥𝘢𝘵𝘢.
-- 𝘞𝘪𝘯𝘥𝘰𝘸 𝘍𝘶𝘯𝘤𝘵𝘪𝘰𝘯𝘴: 𝘌𝘮𝘱𝘭𝘰𝘺𝘦𝘥 𝘸𝘪𝘯𝘥𝘰𝘸 𝘧𝘶𝘯𝘤𝘵𝘪𝘰𝘯𝘴 𝘧𝘰𝘳 𝘢𝘥𝘷𝘢𝘯𝘤𝘦𝘥 𝘥𝘢𝘵𝘢 𝘮𝘢𝘯𝘪𝘱𝘶𝘭𝘢𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘢𝘯𝘢𝘭𝘺𝘴𝘪𝘴.
-- 𝘈𝘨𝘨𝘳𝘦𝘨𝘢𝘵𝘦 𝘍𝘶𝘯𝘤𝘵𝘪𝘰𝘯𝘴: 𝘜𝘵𝘪𝘭𝘪𝘻𝘦𝘥 𝘢𝘨𝘨𝘳𝘦𝘨𝘢𝘵𝘦 𝘧𝘶𝘯𝘤𝘵𝘪𝘰𝘯𝘴 𝘵𝘰 𝘴𝘶𝘮𝘮𝘢𝘳𝘪𝘻𝘦 𝘢𝘯𝘥 𝘤𝘰𝘮𝘱𝘶𝘵𝘦 𝘦𝘴𝘴𝘦𝘯𝘵𝘪𝘢𝘭 𝘮𝘦𝘵𝘳𝘪𝘤𝘴 𝘢𝘤𝘤𝘶𝘳𝘢𝘵𝘦𝘭𝘺.
+This project consists of **10 SQL analysis queries**, progressing from basic to intermediate-level analysis. The queries demonstrate practical SQL skills such as aggregate functions, JOINs, GROUP BY, subqueries, sorting, and date/time functions.
 
-🔍 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐈𝐦𝐩𝐚𝐜𝐭
-- 𝘜𝘯𝘤𝘰𝘷𝘦𝘳𝘦𝘥 𝘷𝘢𝘭𝘶𝘢𝘣𝘭𝘦 𝘪𝘯𝘴𝘪𝘨𝘩𝘵𝘴 𝘪𝘯𝘵𝘰 𝘤𝘶𝘴𝘵𝘰𝘮𝘦𝘳 𝘱𝘳𝘦𝘧𝘦𝘳𝘦𝘯𝘤𝘦𝘴 𝘢𝘯𝘥 𝘴𝘢𝘭𝘦𝘴 𝘱𝘢𝘵𝘵𝘦𝘳𝘯𝘴, 𝘱𝘳𝘰𝘷𝘪𝘥𝘪𝘯𝘨 𝘢𝘤𝘵𝘪𝘰𝘯𝘢𝘣𝘭𝘦 𝘪𝘯𝘵𝘦𝘭𝘭𝘪𝘨𝘦𝘯𝘤𝘦 𝘧𝘰𝘳 𝘴𝘵𝘳𝘢𝘵𝘦𝘨𝘪𝘤 𝘥𝘦𝘤𝘪𝘴𝘪𝘰𝘯-𝘮𝘢𝘬𝘪𝘯𝘨.
-- 𝘋𝘦𝘮𝘰𝘯𝘴𝘵𝘳𝘢𝘵𝘦𝘥 𝘱𝘳𝘰𝘧𝘪𝘤𝘪𝘦𝘯𝘤𝘺 𝘪𝘯 𝘚𝘘𝘓 𝘢𝘯𝘥 𝘥𝘢𝘵𝘢 
+---
+
+## 📊 Project Overview
+
+The goal of this project is to analyze pizza sales data and answer key business questions related to:
+
+- Overall order volume
+- Total revenue
+- Pizza pricing
+- Customer preferences
+- Pizza size popularity
+- Pizza type performance
+- Category-wise sales
+- Peak ordering hours
+- Average daily pizza demand
+- Revenue contribution by pizza type
+
+---
+
+## 🗂️ Dataset
+
+The project uses four related tables:
+
+| Table | Description |
+|---|---|
+| `orders` | Contains order date and time information |
+| `orders_details` | Contains pizza quantities associated with each order |
+| `pizzas` | Contains pizza size and price information |
+| `pizza_types` | Contains pizza names and category information |
+
+### Table Relationships
+
+```text
+orders
+   │
+   │ order_id
+   ▼
+orders_details
+   │
+   │ pizza_id
+   ▼
+pizzas
+   │
+   │ pizza_type_id
+   ▼
+pizza_types
+🔍 Analysis Performed
+🟢 Basic Analysis
+1. Total Number of Orders
+
+Calculated the total number of orders placed using the COUNT() aggregate function.
+
+Result: 21,350 orders
+
+2. Total Revenue
+
+Calculated total revenue by multiplying pizza price by the quantity sold.
+
+Result: $817,860.05
+
+SQL concepts used:
+
+SUM()
+ROUND()
+JOIN
+Arithmetic calculations
+3. Highest-Priced Pizza
+
+Identified the pizza with the highest selling price by joining the pizza_types and pizzas tables.
+
+Result: The Greek Pizza — $35.95
+
+SQL concepts used:
+
+JOIN
+Subquery
+MAX()
+ORDER BY
+4. Most Common Pizza Size
+
+Analyzed pizza sizes based on the number of order details associated with each size.
+
+Result: Large (L) — 18,526
+
+This indicates that the Large pizza size was the most frequently ordered size in the dataset.
+
+SQL concepts used:
+
+JOIN
+COUNT()
+GROUP BY
+ORDER BY
+LIMIT
+5. Top 5 Most Ordered Pizza Types
+
+Calculated the total quantity sold for each pizza type and identified the five most ordered pizzas.
+
+Rank	Pizza Type	Quantity
+1	Classic Deluxe Pizza	2,453
+2	Barbecue Chicken Pizza	2,432
+3	Hawaiian Pizza	2,422
+4	Pepperoni Pizza	2,418
+5	Thai Chicken Pizza	2,371
+
+SQL concepts used:
+
+Multiple JOINs
+SUM()
+GROUP BY
+ORDER BY
+LIMIT
+🟡 Intermediate Analysis
+6. Total Quantity by Pizza Category
+
+Calculated the total number of pizzas sold within each category.
+
+Category	Quantity
+Classic	14,888
+Supreme	11,987
+Veggie	11,649
+Chicken	11,050
+
+Insight: The Classic category had the highest quantity sold.
+
+SQL concepts used:
+
+Multiple JOINs
+SUM()
+GROUP BY
+ORDER BY
+7. Distribution of Orders by Hour
+
+Used the HOUR() function to analyze how order volume changes throughout the day.
+
+Insight: The highest number of orders occurred at 1 PM (13:00), with 2,455 orders.
+
+Other high-volume periods occurred around 12 PM, 5 PM, and 6 PM, indicating strong lunch and evening demand.
+
+This can help identify peak business hours for staffing and operational planning.
+
+SQL concepts used:
+
+HOUR()
+COUNT()
+GROUP BY
+ORDER BY
+8. Pizza Types by Category
+
+Counted the number of pizza types available in each category.
+
+Category	Number of Pizza Types
+Chicken	6
+Classic	8
+Supreme	9
+Veggie	9
+
+Insight: The Supreme and Veggie categories have the largest variety, with 9 pizza types each.
+
+SQL concepts used:
+
+COUNT()
+GROUP BY
+9. Average Number of Pizzas Ordered Per Day
+
+First calculated the total quantity of pizzas ordered on each date and then used a subquery to calculate the average daily quantity.
+
+Result: Approximately 138 pizzas ordered per day
+
+SQL concepts used:
+
+Subqueries
+SUM()
+AVG()
+ROUND()
+GROUP BY
+JOIN
+10. Top 3 Pizza Types by Revenue
+
+Calculated the revenue generated by each pizza type using pizza price and quantity sold.
+
+Rank	Pizza Type	Revenue
+1	Thai Chicken Pizza	$43,434.25
+2	Barbecue Chicken Pizza	$42,768.00
+3	California Chicken Pizza	$41,409.50
+
+Insight: The Thai Chicken Pizza generated the highest revenue among all pizza types.
+
+SQL concepts used:
+
+Multiple JOINs
+SUM()
+Arithmetic calculations
+ROUND()
+GROUP BY
+ORDER BY
+LIMIT
+🛠️ SQL Concepts Demonstrated
+
+This project demonstrates practical use of:
+
+SELECT
+COUNT()
+SUM()
+AVG()
+MAX()
+ROUND()
+GROUP BY
+ORDER BY
+LIMIT
+JOIN
+Multiple-table JOINs
+Subqueries
+Date and time functions
+Aggregate functions
+Arithmetic calculations
+Sorting and ranking
+📈 Key Business Insights
+🍕 Product Preferences
+Large (L) pizzas were the most frequently ordered size, with 18,526 orders.
+The Classic category had the highest quantity sold at 14,888 pizzas.
+The Classic Deluxe Pizza was the most ordered pizza type with 2,453 pizzas sold.
+⏰ Ordering Patterns
+The busiest ordering hour was 1 PM, with 2,455 orders.
+Other high-volume periods occurred around 12 PM, 5 PM, and 6 PM.
+These patterns can help optimize staffing and preparation during peak hours.
+💰 Revenue Performance
+Total revenue generated was $817,860.05.
+The Greek Pizza was the highest-priced pizza at $35.95.
+The Thai Chicken Pizza generated the highest revenue at $43,434.25.
+Barbecue Chicken Pizza and California Chicken Pizza were the next highest revenue contributors.
+💡 Business Recommendations
+
+Based on the analysis, the following actions could be considered:
+
+Maintain sufficient inventory for high-demand Large pizzas.
+Optimize staffing around peak ordering hours.
+Promote high-performing pizza types such as Classic Deluxe and Thai Chicken Pizza.
+Analyze lower-selling pizza types to identify opportunities for promotions or menu optimization.
+Use category-level sales information to improve menu planning and inventory management.
+Consider high-revenue products for targeted marketing campaigns.
+🚀 Project Outcome
+
+This project demonstrates how SQL can be used to transform transactional sales data into meaningful business insights.
+
+Through 10 analysis queries, the project covers the complete analytical process:
+
+Raw Data → SQL Queries → Aggregation → Analysis → Business Insights
+
+The project strengthened practical skills in relational database querying, data aggregation, multi-table JOINs, subqueries, and time-based analysis.
+
+💻 Tools & Technologies
+MySQL
+MySQL Workbench
+SQL
+Relational Database Concepts
+📁 Project Structure
+SQL-Pizza-Sales-Analysis/
+│
+├── README.md
+│
+├── Basic/
+│   ├── 01_total_orders.sql
+│   ├── 02_total_revenue.sql
+│   ├── 03_highest_priced_pizza.sql
+│   ├── 04_most_common_pizza_size.sql
+│   └── 05_top_5_pizza_types.sql
+│
+└── Intermediate/
+    ├── 06_quantity_by_category.sql
+    ├── 07_orders_by_hour.sql
+    ├── 08_category_distribution.sql
+    ├── 09_average_daily_quantity.sql
+    └── 10_top_3_pizzas_by_revenue.sql
+📌 Project Highlights
+
+10 SQL Queries | 21,350 Orders | $817,860.05 Revenue
+
+A practical SQL analytics project demonstrating how relational sales data can be queried, analyzed, and converted into actionable business insights.
